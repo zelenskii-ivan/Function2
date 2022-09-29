@@ -1,14 +1,14 @@
 ﻿
-/*void zadacha25(); 
-  Используя определение степени числа, 
+void zadacha25()
+{ /*Используя определение степени числа, 
     напишите цикл, который принимает на вход два натуральных числа 
      (A и B) и возводит число A в степень B.
      3, 5 -> 243 (3⁵)
      2, 4 -> 16 */
-{
 
-int power(int baseNum, int deg)
-{
+
+ int power(int baseNum, int deg)
+ {
     int result = 1;
 
     for (int i = 0; i < deg; i++)
@@ -36,19 +36,19 @@ while (true)
 
 
 Console.WriteLine(power(number, degree));
-
-
 }
+
+
 
    
   
   
- /*void zadacha27();
-  
+ void zadacha27()
+ {
 
     /*Напишите программу, которая принимает на вход число и выдаёт
     сумму цифр в числе 452-> 11, 82-> 10, 9012-> 12 */
-{
+
     int SumNumber(string number, int counter)
     {
 
@@ -68,18 +68,20 @@ Console.WriteLine(power(number, degree));
     int sumNumber = SumNumber(numberN, numberN.Length);
     Console.WriteLine("Сумма цифр в числе: " + sumNumber);
 
-}
+   }
 
 
 
-//void zadacha29();
-/*Напишите программу, которая задаёт массив из 8 случайных целых чисел и выводит отсортированный по модулю массив.
--2, 1, 7, 5, 19 -> [1, -2, 5, 7, 19] 
-6, 1, -33 -> [1, 6, -33]*/
+ void zadacha29()
+ {
+   /*Напишите программу, которая задаёт массив из 8 случайных целых 
+   чисел и выводит отсортированный по модулю массив.
+   -2, 1, 7, 5, 19 -> [1, -2, 5, 7, 19] 
+    6, 1, -33 -> [1, 6, -33]*/
 
 
-void printArray(int[] array)
-{
+  void printArray(int[] array)
+ {
     Console.Write("[ ");
     for (int i = 0; i < array.Length; i++)
         if (i < array.Length - 1)
@@ -87,11 +89,11 @@ void printArray(int[] array)
         else
             Console.Write(array[i]);
     Console.WriteLine(" ]");
-}
+  }
 
 
-int[] fillArray()
-{
+ int[] fillArray()
+ {
     Random rnd = new Random();
     int[] array = new int[rnd.Next(10, 15)];
 
@@ -102,10 +104,10 @@ int[] fillArray()
     }
 
     return array;
-}
+ }
 
-int[] Sorter(int[] arrayIn)
-{
+ int[] Sorter(int[] arrayIn)
+  {
     int len = arrayIn.Length;
     for (int i = 0; i < len; i++)
         for (int j = i; j < len; j++)
@@ -116,12 +118,16 @@ int[] Sorter(int[] arrayIn)
                 arrayIn[i] = tmp;
             }
     return arrayIn;
+  }
+
+  int[] someArr = fillArray();
+  printArray(someArr);
+  Console.WriteLine();
+  printArray(Sorter(someArr));
+
 }
 
-int[] someArr = fillArray();
-printArray(someArr);
-Console.WriteLine();
-printArray(Sorter(someArr));
+
 
 
 //zadacha25();
