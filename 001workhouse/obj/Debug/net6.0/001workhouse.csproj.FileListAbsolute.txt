@@ -1,0 +1,15 @@
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/bin/Debug/net6.0/001workhouse
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/bin/Debug/net6.0/001workhouse.deps.json
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/bin/Debug/net6.0/001workhouse.runtimeconfig.json
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/bin/Debug/net6.0/001workhouse.dll
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/bin/Debug/net6.0/001workhouse.pdb
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.csproj.AssemblyReference.cache
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.AssemblyInfoInputs.cache
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.AssemblyInfo.cs
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.csproj.CoreCompileInputs.cache
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.dll
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/refint/001workhouse.dll
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.pdb
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/001workhouse.genruntimeconfig.cache
+/Users/ivanzelenskiy/Desktop/28.09.2022/001workhouse/obj/Debug/net6.0/ref/001workhouse.dll
